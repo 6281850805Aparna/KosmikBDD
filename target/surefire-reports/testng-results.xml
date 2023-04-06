@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-06T06:10:28Z" name="Testing_Suite" finished-at="2023-04-06T06:10:47Z" duration-ms="19611">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:fortrainingapp.runners.Runner@5bda8e08]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-04-06T06:10:28Z" name="RegressionTest" finished-at="2023-04-06T06:10:47Z" duration-ms="19611">
+      <class name="fortrainingapp.runners.Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:fortrainingapp.runners.Runner@5bda8e08]" started-at="2023-04-06T11:40:28Z" name="setUpClass" finished-at="2023-04-06T11:40:28Z" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:fortrainingapp.runners.Runner@5bda8e08]" started-at="2023-04-06T11:40:28Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-04-06T11:40:47Z" duration-ms="18788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login feature file]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:fortrainingapp.runners.Runner@5bda8e08]" started-at="2023-04-06T11:40:47Z" name="setup" finished-at="2023-04-06T11:40:47Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:fortrainingapp.runners.Runner@5bda8e08]" started-at="2023-04-06T11:40:47Z" name="tearDownClass" finished-at="2023-04-06T11:40:47Z" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- fortrainingapp.runners.Runner -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- Testing_Suite -->
+</testng-results>
